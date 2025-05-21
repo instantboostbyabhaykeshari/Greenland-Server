@@ -7,7 +7,7 @@ const PORT = 5000;
 
 // Middleware
 app.use(cors({
-  origin: "https://greenland-public-school.vercel.app/"
+  origin: "https://greenland-public-school.vercel.app"
 }));
 app.use(bodyParser.json());
 
